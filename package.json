@@ -1,7 +1,7 @@
 {
-    "name": "tiktok-scraper",
+    "name": "tiktok-scraper-conoro",
     "version": "1.4.33",
-    "description": "TikTok Scraper & Downloader. Scrape information from User, Trending and HashTag pages and download video posts",
+    "description": "Fork of TikTok Scraper with Canvas removed so it can run on Lambda",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "bin": {
@@ -71,7 +71,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/drawrowfly/tiktok-scraper.git"
+        "url": "git+https://github.com/conoro/tiktok-scraper.git"
     },
     "keywords": [
         "TikTok",
@@ -80,7 +80,7 @@
     "author": "Andrew Nord <andrew.nord.flow@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/drawrowfly/tiktok-scraper/issues"
+        "url": "https://github.com/conoro/tiktok-scraper/issues"
     },
-    "homepage": "https://github.com/drawrowfly/tiktok-scraper#readme"
+    "homepage": "https://github.com/conoro/tiktok-scraper#readme"
 }

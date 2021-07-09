@@ -1,6 +1,18 @@
 // @ts-nocheck
 /* eslint-disable */
 
+try {
+    const canvasPath = require.resolve('canvas');
+    const Module = require('module');
+    const fakeCanvas = new Module('', null);
+
+    /* istanbul ignore next */
+    fakeCanvas.exports = function () { };
+
+    require.cache[canvasPath] = fakeCanvas;
+} catch (e) {
+    // `canvas` is not installed, nothing to do
+}
 import { JSDOM } from 'jsdom';
 
 export function sign(url: string) {

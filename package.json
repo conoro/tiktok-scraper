@@ -1,6 +1,6 @@
 {
     "name": "tiktok-scraper-conoro",
-    "version": "1.4.36",
+    "version": "1.4.38",
     "description": "Fork of TikTok Scraper with Canvas removed so it can run on Lambda",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
